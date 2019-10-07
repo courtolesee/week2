@@ -37,7 +37,7 @@ let friendsPets = 0;
 pets += 2;
 
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
-let allowedPets = 3;
+let allowedPets = 5;
 
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!",
 // if it's not true, console log "How about we stay home?"
@@ -60,6 +60,12 @@ if (age > 18 && adventurous) {
 // console logs "I have enough pets" if the value of `pets` is equal to the value of `allowedPets`,
 // and console logs "Oh no, I have too many pets!"
 // if the value of `pets` is greater than the value of `allowedPets`.
+if (pets < allowedPets) {
+  console.log("I can have more pets!");
+}
+else {
+  console.log("Oh no, I have too many pets!");
+}
 
 // 16 - Write a conditional that assigns the value of the `pets` variable
 // to a new variable called `mostPets` IF `pets` is greater than `friendsPets`.
