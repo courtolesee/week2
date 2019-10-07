@@ -31,7 +31,7 @@ let food = "burritos";
 let pets = 2;
 
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
-let friendsPets = 0;
+let friendsPets = 1;
 
 // 11 - Add two pets to your `pets` variable
 pets += 2;
@@ -71,3 +71,15 @@ else {
 // to a new variable called `mostPets` IF `pets` is greater than `friendsPets`.
 // If `friendsPets` is greater than `pets`, assign the value of the `friendsPets`
 // variable to `mostPets`. Console log the value of `mostPets`.
+
+ //IF conditional: pets = mostPets IF pets > friendsPets - need to log value of my pets
+//ELSE friendsPets > pets, then friendsPets is mostPets - need to log value of friends pets
+
+ if (pets > friendsPets) {
+   let mostPets = pets
+   console.log( mostPets );
+ }
+else {
+  let mostPets = friendsPets
+  console.log( mostPets );
+}
